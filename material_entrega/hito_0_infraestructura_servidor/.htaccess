@@ -1,9 +1,12 @@
+Debes comentar adecuadamente el fichero.
+
+# Sustituye comentario por lo que hace la siguiente línea.
 RewriteEngine On
 
-# TAREA ALUMNO: Impedir que se listen los archivos de las carpetas
+# Sustituye este comentario por lo que hace la siguiente línea.
 Options -Indexes
 
-# No reescribimos si es un fichero o directorio que existe físicamente
+# Sustituye este comentario por lo que hacen las siguientes líneas.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
